@@ -1,9 +1,14 @@
 .container {
     padding-left: 80px;
-    width: 1360px;
+    padding-right: 80px;
+    width: 1280px;
     height: auto;
     border-radius: 15px;
-    background-image: url("C:\Users\Lenovo\Desktop\Programavimas\HTML-CSS-Exam\assets\assets\background.sv");
+
+}
+
+.navbar {
+    width: 1280px;
 }
 
 .logo {
@@ -21,6 +26,8 @@
     width: 400px;
     padding-top: 70px;
     text-decoration: none;
+    justify-content: right;
+    text-align: right;
 
 }
 
@@ -33,6 +40,7 @@ nav a {
 }
 
 .master {
+    width: 1280px;
     display: flex;
     justify-content: space-between;
 
@@ -53,7 +61,7 @@ h1 {
 }
 
 h2 {
-    font-size: 100px;
+    font-size: 90px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 3px;
     font-weight: bold;
@@ -82,14 +90,17 @@ p {
 
 .birds-container {
     border-radius: 10px;
-    background-color: rgb(232, 117, 136);
     width: 1280px;
     height: 320px;
+    background-color: coral;
+    background-image: url(C:\Users\Lenovo\Desktop\Programavimas\HTML-CSS-Exam\assets\assets\background.svg);
+    background-image: url("C:\Users\Lenovo\Desktop\Programavimas\HTML-CSS-Exam\assets\assets\background.svg");
 }
 
 .birds-text {
     padding-top: 150px;
     padding-left: 65px;
+
 }
 
 h4 {
@@ -209,4 +220,109 @@ h5 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer-upsel {
+    display: flex;
+    margin-top: 100px;
+}
+
+hr.solid {
+    border-top: 2px solid #bbb;
+    margin-top: 120px;
+}
+
+.footer-upsel button {
+    border-radius: 40px;
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    border: 6px solid rebeccapurple;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.madam-green {
+    justify-items: center;
+    padding-left: 260px;
+}
+
+.medium {
+    font-size: 60px;
+    margin: 10px 0px 10px 0px;
+}
+
+hr.solid2 {
+    border-top: 2px solid #bbb;
+    margin-top: 0px;
+
+}
+
+.footer {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.footer-left {
+    width: 250px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.nft {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-text {
+    color: #999999;
+}
+
+.soc-icons {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 428px) {
+    .nav-links {
+        display: block;
+    }
+
+
 }
