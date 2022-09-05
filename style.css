@@ -92,9 +92,7 @@ p {
     border-radius: 10px;
     width: 1280px;
     height: 320px;
-    /* background-color: coral; */
     background-image: url(./background.svg);
-    /* background-image: url("C:\Users\Lenovo\Desktop\Programavimas\HTML-CSS-Exam\assets\assets\background.svg"); */
 }
 
 .birds-text {
