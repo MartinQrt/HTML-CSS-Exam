@@ -83,7 +83,7 @@ p {
     width: 200px;
     height: 80px;
     background-color: white;
-    border: 6px solid rebeccapurple;
+    border: 6px solid rgb(233, 122, 48);
     font-size: 20px;
     font-weight: bold;
 }
@@ -92,9 +92,9 @@ p {
     border-radius: 10px;
     width: 1280px;
     height: 320px;
-    background-color: coral;
-    background-image: url(C:\Users\Lenovo\Desktop\Programavimas\HTML-CSS-Exam\assets\assets\background.svg);
-    background-image: url("C:\Users\Lenovo\Desktop\Programavimas\HTML-CSS-Exam\assets\assets\background.svg");
+    /* background-color: coral; */
+    background-image: url(./background.svg);
+    /* background-image: url("C:\Users\Lenovo\Desktop\Programavimas\HTML-CSS-Exam\assets\assets\background.svg"); */
 }
 
 .birds-text {
@@ -237,7 +237,7 @@ hr.solid {
     width: 200px;
     height: 80px;
     background-color: white;
-    border: 6px solid rebeccapurple;
+    border: 6px solid rgb(233, 122, 48);
     font-size: 20px;
     font-weight: bold;
 }
@@ -323,6 +323,4 @@ a {
     .nav-links {
         display: block;
     }
-
-
 }
